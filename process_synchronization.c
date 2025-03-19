@@ -36,7 +36,6 @@ void(*Thread3())
     {
         printf("%d\n", i);
     }
-    sem_post(&s1);
 }
 int main()
 {
